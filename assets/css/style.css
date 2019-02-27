@@ -1,0 +1,39 @@
+body {
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+header {
+  background-color: teal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 10px;
+  float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-color: #cccccc; 
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }

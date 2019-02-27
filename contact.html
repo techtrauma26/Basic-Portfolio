@@ -4,11 +4,48 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+
   <header>
     <h1>Contact</h1>
   </header>
 
+  <br><br>
+
+  <ul>
+    <li><a class="active" href="#about">About</a></li>
+    <li><a href="#Portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="box-set">
+    <figure class="box box-1">Vyjoo Frank</figure>
+    <figure class="box box-2">About</figure>
+    <figure class="box box-3">Portfolio</figure>
+    <figure class="box box-4">Contact</figure>
+    <figure class="box box-4">Submit</figure>
+  </div>
+
+  <div class="container">
+    <form action="action_page.php">
   
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="John Smith">
+
+      <label for="Email">Email</label>
+      <input type="text" id="email" name="Email" placeholder="example@gmail.com">
+      
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+</body>
+
+</html>
