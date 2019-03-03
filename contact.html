@@ -3,49 +3,54 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>Contact | Vyjoo Frank</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
   <header>
-    <h1>Contact</h1>
+    <div class="wrapper">
+      <a href="#" id="logo">Vyjoo Frank</a>
+          
+        <nav>
+          <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+    </div>
   </header>
 
-  <br><br>
+<div id="container" class="wrapper">
+  <div id="content" class="module">
+    <h1>Contact</h1>
+  
+    <form id="contact-form">
+        <ul id="contact-list">
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-  <ul>
-    <li><a class="active" href="#about">About</a></li>
-    <li><a href="#Portfolio">Portfolio</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-
-  <div class="box-set">
-    <figure class="box box-1">Vyjoo Frank</figure>
-    <figure class="box box-2">About</figure>
-    <figure class="box box-3">Portfolio</figure>
-    <figure class="box box-4">Contact</figure>
-    <figure class="box box-4">Submit</figure>
   </div>
 
-  <div class="container">
-    <form action="action_page.php">
-  
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="John Smith">
+</div>
 
-      <label for="Email">Email</label>
-      <input type="text" id="email" name="Email" placeholder="example@gmail.com">
-      
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
-
-    </form>
-  </div>
-
+<footer> Copyright &copy; 2019 Vyjoo Frank </footer>
+    
 </body>
-
 </html>
